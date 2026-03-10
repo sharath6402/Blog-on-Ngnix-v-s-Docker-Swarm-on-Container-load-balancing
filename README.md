@@ -1,4 +1,4 @@
-# Experimental Comparison of Container Load Balancing Using Nginx and Docker Swarm
+# Experimental Evaluation of Container Load Balancing Using Nginx and Docker Swarm in a Distributed Docker Environment
 
 ## 1. Introduction
 
