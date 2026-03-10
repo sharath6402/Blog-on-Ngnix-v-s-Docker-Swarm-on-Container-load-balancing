@@ -6,8 +6,8 @@ app = Flask(__name__)
 daemons = [
     "tcp://127.0.0.1:2375",
     "tcp://127.0.0.1:2376",
-    "tcp://13.63.154.72:2377",
-    "tcp://13.63.154.72:2378"
+    "tcp://<aws.server.addr>:2377",
+    "tcp://<aws.server.addr>:2378"
 ]
 
 clients = [docker.DockerClient(base_url=d) for d in daemons]
