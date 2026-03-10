@@ -59,10 +59,10 @@ Example Nginx configuration:
 
 ``` nginx
 upstream vehicle_nodes {
-    server node1:5000;
-    server node2:5000;
-    server node3:5000;
-    server node4:5000;
+    server node1:6000;
+    server node2:6000;
+    server node3:6000;
+    server node4:6000;
 }
 
 server {
